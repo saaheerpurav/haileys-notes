@@ -1,0 +1,35 @@
+.rbc-event {
+    background-color: #ddd;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+.rbc-event:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.rbc-event.rbc-selected{
+    background-color: #aaa;
+}
+
+.rbc-off-range-bg {
+    background-color: #f5f5f5;
+}
+
+.rbc-day-bg {
+    cursor: pointer;
+}
+.rbc-day-bg:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.rbc-toolbar{
+    margin: 10px;
+}
+
+.rbc-day-slot .rbc-event{
+    border: none;
+}
